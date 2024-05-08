@@ -1,0 +1,140 @@
+body{
+background-color: rgb(255, 255, 255);
+display: inline-block;
+}
+
+#cabeca{
+    display: flex;
+    margin-top: -10px;
+padding: 15px;
+    width: 1880px;
+    background-color: blue;
+    
+
+
+}
+button{
+ margin-left: 650px;   
+}
+#produtosContainer {
+    transition: box-shadow 0.3s ease;
+    margin-top: 100px;
+    background-color: #dc3545;
+    width: 1500px;
+    margin-left: 80px;
+    padding: 15px;
+}
+
+
+
+
+#divBusca{
+    background-color:#E0EEEE;
+    border: 1px solid #ccc;
+    border-radius:4px;
+    width:500px;
+    height:35px;
+    margin-top: 20px;
+    margin-left: -1100px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:490px;
+    margin-top: 0px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:36px;
+    border-radius:0 7px 7px 0;
+    width:72px;
+    font-weight:bold;
+    background:#5504b3;
+    margin-top: -35px;
+    margin-left: 350px;
+    cursor: pointer;
+  }
+
+  /* #limparP{} */
+h2{
+    color: #fff;
+    margin-left: 100px;
+   
+}
+#telaCadastro{
+
+    display: inline-block;
+    text-align: left;
+    flex-direction: row;
+    font-style: italic;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;   
+margin-bottom: -1000px;
+}
+
+a {
+margin-left: 1500px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+a:hover,
+a:active {
+    color: rgb(8, 27, 116);
+}
+
+.produto {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 300px; /* Define a largura máxima para cada produto */
+    margin-right: 10px; /* Adiciona um espaço entre os produtos */
+    float: left; /* Permite que os produtos flutuem à esquerda */
+   
+}
+
+
+.produto img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100%;
+    height: auto;
+    cursor:pointer;
+}
+
+
+.produto p {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.remover-btn {
+    margin-bottom: -100px;
+    display: block;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Limpa a flutuação dos produtos */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
